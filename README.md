@@ -63,4 +63,4 @@ npx cypress open
 ```
 
 ---
-**Desenvolvido por Manus AI**
+**Desenvolvido por Cleiton Horalino**
