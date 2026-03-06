@@ -17,9 +17,4 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           browser: chrome
-          # Relatórios e vídeos podem ser salvos como artefatos se necessário
-      - uses: actions/upload-artifact@v4
-        if: failure()
-        with:
-          name: cypress-screenshots
-          path: cypress/screenshots
+          # Não precisamos de 'start' pois o site já está online
